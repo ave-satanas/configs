@@ -1,6 +1,6 @@
 /* AGENT_SHEET */
 
-@-moz-document domain("boards.4chan.org") {
+@-moz-document domain("boards.4chan.org"), domain("4chan.org") {
 body {
   background: #131326!important;
   font-family: "SF UI Display", "Lucida Sans Unicode", sans-serif !important;
@@ -1426,7 +1426,7 @@ td {
 
 #captcha color autism
 a, a:visited {
-    color:d04767
+  color: #d04767 !important;
 }
 
 #qr {
