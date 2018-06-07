@@ -1,0 +1,93 @@
+! xscreensaver ---------------------------------------------------------------
+
+!font settings
+xscreensaver.Dialog.headingFont:        -*-dina-bold-r-*-*-10-*-*-*-*-*-*-*
+xscreensaver.Dialog.bodyFont:           -*-dina-medium-r-*-*-10-*-*-*-*-*-*-*
+xscreensaver.Dialog.labelFont:          -*-dina-medium-r-*-*-10-*-*-*-*-*-*-*
+xscreensaver.Dialog.unameFont:          -*-dina-medium-r-*-*-10-*-*-*-*-*-*-*
+xscreensaver.Dialog.buttonFont:         -*-dina-bold-r-*-*-10-*-*-*-*-*-*-*
+xscreensaver.Dialog.dateFont:           -*-dina-medium-r-*-*-10-*-*-*-*-*-*-*
+xscreensaver.passwd.passwdFont:         -*-dina-bold-r-*-*-10-*-*-*-*-*-*-*
+!general dialog box (affects main hostname, username, password text)
+xscreensaver.Dialog.foreground:         #EDEDED
+xscreensaver.Dialog.background:         #202020
+xscreensaver.Dialog.topShadowColor:     #202024
+xscreensaver.Dialog.bottomShadowColor:  #202024
+xscreensaver.Dialog.Button.foreground:  #EDEDFF
+xscreensaver.Dialog.Button.background:  #444
+!username/password input box and date text colour
+xscreensaver.Dialog.text.foreground:    #EDEDFF
+xscreensaver.Dialog.text.background:    #444
+xscreensaver.Dialog.internalBorderWidth:24
+xscreensaver.Dialog.borderWidth:        0
+xscreensaver.Dialog.shadowThickness:    2
+!timeout bar (background is actually determined by Dialog.text.background)
+xscreensaver.passwd.thermometer.foreground:  #A9B7C4
+xscreensaver.passwd.thermometer.background:  #202020
+xscreensaver.passwd.thermometer.width:       8
+!datestamp format--see the strftime(3) manual page for details
+xscreensaver.dateFormat:    %I:%M%P %a %b %d, %Y
+
+! for future reference, the affected programs are:
+!   vim -- done
+!   ncmpcpp -- done
+!   irssi -- wip
+!   ranger -- done
+!   tmux -- done
+!   zsh -- done
+!   rtorrent -- done
+
+! black
+URxvt*color0: #30303a
+URxvt*color8: #66666a
+
+! red
+URxvt*color1: #d04767
+URxvt*color9: #f0a3a3
+
+! yellow/orange
+!URxvt*color3: #ab93b9
+!URxvt*color11: #cbb6d7
+URxvt*color3: #bfab5a
+URxvt*color11: #ffea9a
+
+! purple
+URxvt*color5: #a585b9
+URxvt*color13: #d2bbe4
+
+! blue
+URxvt*color4: #7172a8
+URxvt*color12: #96b6d8
+
+! green
+URxvt*color2: #91ba78
+URxvt*color10: #C7E6B8
+
+! cyan
+!URxvt*color6: #63918b
+!URxvt*color14: #92b5b0
+URxvt*color6: #6e918d
+URxvt*color14: #a7c3bf
+
+! white
+URxvt*color7: #b1b8c3
+URxvt*color15: #cdcdcd
+
+URxvt*scrollBar: false
+URxvt*background: #131326
+URxvt*foreground: #d2d2d2
+URxvt*cursorUnderline: true
+URxvt*cursorColor: #666666
+URxvt*colorUL: #9695b5
+URxvt*internalBorder:7
+URxvt*borderColor: #131326
+URxvt*pointerBlank: false
+
+URxvt*font: xft:lemon:size=8
+URxvt*boldFont: xft:lemon:size=8
+URxvt*keysym.Home: \033[1~
+URxvt*keysym.End: \033[4~
+URxvt.perl-ext-common: default,matcher
+URxvt.url-launcher: /usr/bin/firefox
+URxvt.matcher.button: 1
+URxvt.matcher.rend.0: -Uline
