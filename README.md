@@ -1,3 +1,3 @@
 # configs
-![image](https://my.mixtape.moe/txisqb.png)
+![image](https://my.mixtape.moe/tmpzaf.png)
 4chan rice w/ banned page
