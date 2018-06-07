@@ -1700,3 +1700,104 @@ a#qr-filerm {
   display: none !important;
 }
 }
+
+@-moz-document url("https://www.4chan.org/banned") {
+/* B&
+------
+*/
+
+/* baby got put in the corner :c */
+
+.top-box {
+    background: #131326 !important;
+}
+
+.box-outer {
+    border: 2px solid #30303a !important;
+}
+
+.boxbar {
+    background: #131326 !important;
+    color: #bf7c83 !important;
+}
+
+.boxcontent {
+    color: #d2d2d2 !important;
+    font-family: SF UI Display !important;
+    font-size: 10pt !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+#ft li.current, #ft li.fill {
+    background: #131326 !important;
+    color: #d04767 !important;
+    border-top: 2px solid #d04767 !important;
+}
+
+#ft ul {
+    border-top: 2px solid #d04767 !important;
+    color: #d2d2d2 !important;
+}
+
+#ft li.first {
+    border-left: 2px solid #d04767 !important;
+}
+
+#ft li {
+    background: #131326 !important;
+    border: 1px solid #d04767;
+    border-right-width: 2px !important;
+    border-bottom-width: 2px !important;
+}
+
+#ft li a {
+    color: #bf7c83 !important;
+    font-size: 9pt !important;
+}
+
+body {
+    color: #d2d2d2 !important;
+    font-family: SF UI Display !important;
+    font-size: 8pt !important;
+    background: #131326 !important;
+    background-color: #131326 !important;
+}
+
+#hd {
+    /*display: none !important;*/
+    padding-top: 50px !important;
+}
+
+html {
+    background: #131326 !important;
+}
+
+button {
+    color: #d2d2d2 !important;
+    font-family: lemon !important;
+    font-size: 8pt !important;
+}
+
+fieldset, img {
+    display: none !important;
+}
+
+a {
+    color: #bf7c83 !important;
+    font-family: SF UI Display !important;
+    font-size: 10pt !important;
+}
+
+span.name {
+    color: #a27b9d !important;
+    font-weight: 700 !important;
+}
+
+h2 {
+	color: #28915d !important;
+    font-size: 12pt !important;
+    font-weight: 700;
+    background-color: #131326 !important;
+}
+} 
