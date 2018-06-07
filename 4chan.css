@@ -70,7 +70,7 @@ a.useremail[href*='Sage']:last-of-type::after,
 a.useremail[href*='SAGE']:last-of-type::after {
   content: " (sage)" !important;
   color: #a27b9d !important;
-  font-size: 8pt !important;
+  font-size: 10pt !important;
   font-weight: bold !important;
 }
 
@@ -142,7 +142,7 @@ a.useremail {
 a.replylink {
   color: #ccc !important;
   text-decoration: none !important;
-  font-size: 8pt !important;
+  font-size: 10pt !important;
   margin-left: 8px !important;
 }
 
@@ -201,7 +201,7 @@ a.replylink:hover {
   width: 94% !important;
   max-width: 94% !important;
   line-height: 16px !important;
-  font-size: 8pt !important;
+  font-size: 10pt !important;
   text-align: left !important;
   padding-bottom: 0px !important;
   margin-top: 4px !important;
@@ -274,7 +274,7 @@ s:hover {
 .inline .filtered,
 a.quotelink.filtered,
 .quoteLink, .deadlink {
-  font-size: 8pt !important;
+  font-size: 10pt !important;
   color: #ccc !important;
   text-decoration: none !important;
 }
@@ -367,7 +367,7 @@ input[type="number"] {
 }  
   
 #hidden-toggle, #hidden-toggle * {
-  font-size: 8pt !important;
+  font-size: 10pt !important;
   color: transparent !important;
 }
 
@@ -487,7 +487,7 @@ input[type="number"] {
 }
   
 #notifications {
-  font-size: 8pt !important;
+  font-size: 10pt !important;
 }
 
 .fa-refresh:before {
@@ -582,7 +582,7 @@ input[type="number"] {
   color: #5c6066 !important;
   background: #131326 !important;
   border-radius: 2px !important;
-  font-size: 8pt !important;
+  font-size: 10pt !important;
   text-transform: lowercase !important;
   margin-left: 2px !important;
   text-align: right !important;
@@ -727,7 +727,7 @@ a.hide-announcement.fa.fa-minus-square-o:before {
 
 .hide-reply-button::before, .fa-minus-square-o:before {
   content: "\2296" !important;
-  font-size: 8pt !important;
+  font-size: 10pt !important;
   color: #30303a !important;
   position: relative !important;
   font-family: Helvetica Neue, Helvetica, sans-serif !important;
@@ -784,7 +784,7 @@ a.hide-announcement.fa.fa-minus-square-o:before {
   margin-left: 4px !important;
   width: 100% !important;
   color: #30303a !important;
-  font-size: 8pt !important;
+  font-size: 10pt !important;
   font-family: Helvetica Neue, Helvetica, sans-serif !important;
   background: transparent !important;
   border-radius: 0px !important;
@@ -796,7 +796,7 @@ a.hide-announcement.fa.fa-minus-square-o:before {
   margin-right: 0px !important;
   color: #30303a !important;
   font-family: Helvetica Neue, Helvetica, sans-serif !important;
-  font-size: 8pt !important;
+  font-size: 10pt !important;
 }
  
 .show-post-button {
@@ -827,7 +827,7 @@ a.hide-announcement.fa.fa-minus-square-o:before {
 }
 
 .stub .fa-bars:before {
-  font-size: 8pt !important;
+  font-size: 10pt !important;
   color: #30303a !important;
   font-family: Helvetica Neue, Helvetica, sans-serif !important;
   margin-top: 0px !important;
@@ -840,7 +840,7 @@ a.hide-announcement.fa.fa-minus-square-o:before {
   margin-top: -3px !important;
   margin-right: 11px !important;
   content: "\2297" !important;
-  font-size: 8pt !important;
+  font-size: 10pt !important;
   color: #bebebe !important;
   font-family: Helvetica Neue, Helvetica, sans-serif !important;
   transition: 0.5s color ease;
@@ -880,7 +880,7 @@ p {
 
 .postInfo > .container {
   display: inline !important;
-  font-size: 8pt !important;
+  font-size: 10pt !important;
 }
 
 .opContainer .container {
@@ -916,7 +916,7 @@ div.closed {
 
 .fa-bars:before, .fa-angle-down:before {
   content: "\25BE" !important;
-  font-size: 8pt !important;
+  font-size: 10pt !important;
   color: #bebebe !important;
   margin-left: 5px !important;
   margin-right: 5px !important;
@@ -1091,7 +1091,7 @@ div .postInfo {
   margin-top: 2px !important;
   padding-top: 2px !important;
   padding-bottom: 0px !important;
-  font-size:8pt !important;
+  font-size:10pt !important;
   background: transparent !important;
   border-bottom: none !important;
   border-top: 1px #909090 !important;
@@ -1337,7 +1337,7 @@ td {
   color: transparent !important;
   background: transparent !important;
   border: none !important;
-  font-size: 8pt !important;
+  font-size: 10pt !important;
 }
 
 .pages {
@@ -1346,12 +1346,12 @@ td {
 
 .pages a {
   color: #7c818a !important;
-  font-size: 8pt !important;
+  font-size: 10pt !important;
 }
 
 .pages strong {
   color: #121821 !important;
-  font-size: 8pt !important;
+  font-size: 10pt !important;
 }
 
 .pagelist .cataloglink a {
@@ -1390,7 +1390,7 @@ td {
   padding-top: 0px !important;
   text-transform: lowercase !important;
   cursor: pointer !important;
-  font-size: 8pt !important;
+  font-size: 10pt !important;
   font-family: SF UI Display !important;
 }
 
@@ -1424,6 +1424,10 @@ td {
 -----
 */
 
+#captcha color autism
+a, a:visited {
+    color:d04767
+}
 
 #qr {
   display: block !important;
@@ -1448,6 +1452,7 @@ td {
   padding-bottom: 0px !important;
   margin-right: 10px !important;
   z-index: 5;
+  font-family: lemon !important;
   font-size: 7pt !important;
   color: #bbb;
 }
@@ -1556,11 +1561,11 @@ input[title="Subject"].field {
   -moz-appearance: none !important;
   height: 200px !important;
   margin-bottom: 0px !important;
-  font-size: 8pt !important;
+  font-size: 10pt !important;
   font-family: SF UI Display, Lucida Sans Unicode, sans-serif !important;
   line-height: 14px !important;
   background: #131326 !important;
-  color: #33414d !important;
+  color: #d2d2d2 !important;
   border: none !important;
 }
 
