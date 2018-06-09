@@ -1,25 +1,8 @@
 /*
+Original CSS by http://chloechantelle.com 
 
-Firefox 58+ (Quantum) browser theme 
-Only really need to edit the hex colors in :root
-And some of the options up to line 100 (show/hide close button selector)
-Originally from my theme Nocturnal: https://userstyles.org/styles/105352/nocturnal-firefox-theme
-
-Should look like: https://i.imgur.com/hailYrM.jpg
-
-1. Download this file
-2. Find your Firefox profile folder:
-  a. On Windows: C:\Users\%userprofile%\AppData\Roaming\Mozilla\Firefox\Profiles > your profile name
-  b. On Linux: http://kb.mozillazine.org/Profile_folder_-_Firefox#Linux
-  c. On Mac: http://kb.mozillazine.org/Profile_folder_-_Firefox#Mac
-3. Create a folder named 'chrome'
-4. Shove the file in there
-5. Install Open Sans and Open Sans Semibold: https://www.fontsquirrel.com/fonts/open-sans
-6. Go to about:config, search for "gfx.direct2d.disabled", toggle to true to fix font rendering
-7. (Optional) Install to fix rendering even more: https://addons.mozilla.org/en-US/firefox/addon/anti-aliasing-tuner  -  set to Default > GDI Natural or w/e looks best to you.
-8. Restart Firefox
-
-Enjoy <3
+butchered and modified by me
+you can try to read my changes but I literally didn't even care what line I was adding rules to so it's a proper mess
 
 */
 
