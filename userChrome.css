@@ -18,30 +18,31 @@ Should look like: https://i.imgur.com/hailYrM.jpg
 6. Go to about:config, search for "gfx.direct2d.disabled", toggle to true to fix font rendering
 7. (Optional) Install to fix rendering even more: https://addons.mozilla.org/en-US/firefox/addon/anti-aliasing-tuner  -  set to Default > GDI Natural or w/e looks best to you.
 8. Restart Firefox
+
 Enjoy <3
 
 */
 
+/* scrollbars REEEEEEEEE*/
 browser {
-    margin-right: -17px !important;
-#    margin-bottom: -17px !important;
-    overflow-y: hidden;
-    overflow-x: hidden;
-    }
+  margin-right: -17px !important;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
 
 /* custom colors */             /*var(--tab-bg)*/
 :root
 {
-  --tab-bg: #121226 !important;
+  --tab-bg: #14151F !important;
                 /* tab bg */
 
-  --url-bg: #121226 !important;
+  --url-bg: #131326 !important;
      /* nav bar/url section */
 
-  --browser-bg: #121226 !important;
+  --browser-bg: #131326 important;
      /* url bg & hover bg */
 
-  --alt-bg: #121226 !important;
+  --alt-bg: #666666 !important;
   /* alt bg color for selected tab*/
 
   --main-text: #d2d2d2 !important;
@@ -56,9 +57,11 @@ browser {
 
           /* hide favicons on unpinned tabs (none or inherit) */
 
-.tabbrowser-tab .tab-icon-image {
-    display: none !important;
+.tabbrowser-tab:not([pinned]) .tab-icon-image
+{
+  display: none !important;
 }
+
 
                                  /*       
         remove or show titlebar buttons and change titlebar color
@@ -73,9 +76,12 @@ browser {
   display: none !important;
 }
 
+
 #TabsToolbar
 {
   background-color:  var(--browser-bg) !important;
+/*  display: none !important;*/
+  margin-bottom: -28px !important;
 }
 
             /* remove dumb page actions in urlbar */
@@ -89,11 +95,18 @@ browser {
 #TabsToolbar .tabbrowser-tab {
   padding: 4px;
   height: 20px !important;
+  display: none !Important;
 }
 
 #nav-bar {
-  height: 30px !important;  /* don't go lower than 30 */  
+  height: 30px !important;  /* don't go lower than 30 */
+  padding-top: 2px !important;
 } 
+
+
+#navigator-toolbox::after {
+	border-bottom: 1px solid #66666a !important;
+}
 
 
 #main-window:not([privatebrowsingmode])[sizemode="normal"] #TabsToolbar {
@@ -108,18 +121,18 @@ browser {
     opacity: 0.5 !important;
     margin-top: 1px;
     /* uncomment for dark buttons */
-    /*filter: invert(100%) !important;        */
+    filter: invert(100%) !important;        
 }
 
               /* hide back/forward buttons (none or inherit) */
 #forward-button, #back-button {
-display: inherit !important; 
+display: none !important; 
 }    
 
    
               /* show/hide close button on tabs */
 .tab-close-button.close-icon {
-/*display: none !important;       */
+display: none !important;       
 opacity: 0.6 !important;    
 }
 
@@ -145,13 +158,11 @@ browser, browser.display.background_color, tabbrowser tabpanels, .browserStack >
 #identity-box, #identity-box:hover {
     transition: ease-in-out .3s !important;
 }
-
+/tabs
 .tab-icon-image {
-opacity: 0.8 !important;
-/*
-make tab favicons grey and flat   
+opacity: 0.8 !important;   
 filter: grayscale(100%) contrast(25%) !important;
-*/
+
 }
 
                                   /* fades buttons */
@@ -162,15 +173,15 @@ filter: grayscale(100%) contrast(25%) !important;
 
 /* fonts */
 #urlbar, #TabsToolbar .tabbrowser-tab, menu, .autocomplete-richlistbox, #menubar-items, statuspanel[type="overLink"] .statuspanel-label, toolbarbutton, #placeContent, #placesList, .editBMPanel_rowLabel, .textbox-input-box, .viewer-title.label.toolbar, .downloadTarget, .downloadDetails, #bookmarks-view-children, #sidebar-search-label, #sidebar-title, .menubar-text {
-    font-family: "SF UI Display" !important;
-    font-size: 13px !important;
-    font-weight: 600 !important;
+    font-family: "lemon", "Segoe UI" !important;
+    font-size: 10px !important;
+/*    font-weight: 600 !important;*/
 }
     
 #clientBox {
-    font-family: "SF UI Display" !important;
-    font-size: 12px !important;
-    font-weight: 600 !important;
+    font-family: "lemon", "Segoe UI" !important;
+    font-size: 10px !important;
+/*    font-weight: 600 !important;*/
 }      
 
 
@@ -178,10 +189,10 @@ filter: grayscale(100%) contrast(25%) !important;
 #memfx-toolbar-button, #reload-button, .box-inherit.toolbarbutton-menubutton-button, .scrollbutton-up, .scrollbutton-down, #stop-button {
   display: none;
 }
-/* remove plugin and reader view 
+/* remove plugin and reader view */
 #reader-mode-button, #notification-popup-box {
       display: none;
-}*/
+}
 
 
 #TabsToolbar .tabbrowser-tab {
@@ -198,14 +209,13 @@ filter: grayscale(100%) contrast(25%) !important;
 #TabsToolbar {
   background: var(--browser-bg) !important;
 }
-
 */
 
 #PanelUI-footer-inner > toolbarseparator {
     border: none !important;
 }
 
-/*remove blue browser border
+/*remove blue browser border 
 :not([chromehidden*="toolbar"])[sizemode="normal"]
 */
 #main-window {
@@ -249,7 +259,6 @@ filter: grayscale(100%) contrast(25%) !important;
 
 /* navbar */
     #navigator-toolbox > toolbar:not(#toolbar-menubar):not(#TabsToolbar):not(:-moz-lwtheme) {
-
         background-color: var(--url-bg) !important;
         margin-bottom: -2px !important;
     }
@@ -441,7 +450,11 @@ color: var(--main-text) !important;
 
 /* menu icon */
 #PanelUI-button, #nav-bar-overflow-button {
-    background: var(--url-bg) !important;
+    background: var(--url-bg) !important!;
+}
+
+#PanelUI-button {
+    list-style-image: url(http://puu.sh/nNmIC/afb1912a86.png) !important;
 }
 
 /* back/forward buttons*/
@@ -511,7 +524,7 @@ opacity: 0.5 !important;
 
 /* menu button */
 #PanelUI-button {
-    background: url('https://i.imgur.com/KH42jDc.png') !important;    
+    background: url(file:///home/ave-satanas/pics/lavey-sigil.png) !important;
     background-color: var(--url-bg) !important;
     background-repeat: no-repeat !important;
     background-position: center !important;
