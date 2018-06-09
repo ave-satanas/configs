@@ -1,0 +1,20 @@
+rename .vim
+rename pics
+rename vids
+rename desktop
+rename docs
+rename porn
+shell mkdir -p ~/docs/build/
+shell mkdir -p ~/docs/build/safari
+open_with uz
+open_with unzip
+shel
+shell mv SF*.otf ~/.fonts
+search stylus
+open_with vim
+shell rn(mu)
+shell mousepad userChrome.css
+shell vim ~/.gtkrc-2.0
+
+search mopidy
+delete
