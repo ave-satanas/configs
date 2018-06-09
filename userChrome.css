@@ -83,12 +83,14 @@ browser {
 
 #nav-bar {
   height: 30px !important;  /* don't go lower than 30 */
-  padding-top: 2px !important;
+  padding-top: 6px !important;
+  background-color: #131326 !important;
+  padding-bottom: 4px !important;
 } 
 
 
 #navigator-toolbox::after {
-	border-bottom: 1px solid #66666a !important;
+	border-bottom: 1px solid #666666 !important;
 }
 
 
