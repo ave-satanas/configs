@@ -182,12 +182,12 @@ hc set frame_transparent_width 0
 hc set frame_gap 0
 
 hc attr theme.active.color '#d04767'
-hc attr theme.normal.color '#131326'
-hc attr theme.urgent.color orange
+hc attr theme.normal.color '#a585b9'
+hc attr theme.urgent.color '#bfab5a'
 hc attr theme.inner_width 0
 hc attr theme.inner_color gray
 hc attr theme.border_width 2 
-hc attr theme.floating.border_width 1
+hc attr theme.floating.border_width 2 
 hc attr theme.floating.outer_width 0
 hc attr theme.floating.outer_color black
 hc attr theme.active.inner_color '#'
