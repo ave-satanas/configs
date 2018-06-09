@@ -1,8 +1,8 @@
 /* AGENT_SHEET */
 
-@-moz-document domain("boards.4chan.org"), domain("4chan.org") {
+@-moz-document domain("boards.4chan.org") {
 body {
-  background: #131326!important;
+  background: #fff!important;
   font-family: "SF UI Display", "Lucida Sans Unicode", sans-serif !important;
   font-size: 7pt !important;
 }
@@ -70,7 +70,7 @@ a.useremail[href*='Sage']:last-of-type::after,
 a.useremail[href*='SAGE']:last-of-type::after {
   content: " (sage)" !important;
   color: #a27b9d !important;
-  font-size: 10pt !important;
+  font-size: 8pt !important;
   font-weight: bold !important;
 }
 
@@ -122,7 +122,7 @@ div.post div.postInfo span.nameBlock span.name {
 }
 
 a.useremail {
-  color: #30303a !important;
+  color: #aaa !important;
   font-style: normal !important;
   text-decoration: none !important;
 }
@@ -142,12 +142,12 @@ a.useremail {
 a.replylink {
   color: #ccc !important;
   text-decoration: none !important;
-  font-size: 10pt !important;
+  font-size: 8pt !important;
   margin-left: 8px !important;
 }
 
 a.replylink:hover {
-  color: #30303a !important;
+  color: #aaa !important;
 }
 
 .post.op .postNum > span {
@@ -201,7 +201,7 @@ a.replylink:hover {
   width: 94% !important;
   max-width: 94% !important;
   line-height: 16px !important;
-  font-size: 10pt !important;
+  font-size: 8pt !important;
   text-align: left !important;
   padding-bottom: 0px !important;
   margin-top: 4px !important;
@@ -209,11 +209,11 @@ a.replylink:hover {
   margin-left: 15px !important;
   margin-right: 20px !important;
   padding-right: 10px !important;
-  color: #d2d2d2 !important;
+  color: #555 !important;
 }
 
 s:hover {
-  background: #30303a !important;
+  background: #eee !important;
   color: #555 !important;
 }
 
@@ -274,13 +274,13 @@ s:hover {
 .inline .filtered,
 a.quotelink.filtered,
 .quoteLink, .deadlink {
-  font-size: 10pt !important;
+  font-size: 8pt !important;
   color: #ccc !important;
   text-decoration: none !important;
 }
 
 .nameBlock .posteruid {
-  color: #30303a !important;
+  color: #aaa !important;
   background: transparent !important;;
 }
   
@@ -293,7 +293,7 @@ a.quotelink.filtered,
 }
   
 .hand {
-  color: #131326 !important;
+  color: #fff !important;
 }
 
 
@@ -306,7 +306,7 @@ a.quotelink.filtered,
   width: 80% !important;
   margin-left: 10% !important;
   margin-right: 10% !important;
-  border: 1px solid #30303a !important;
+  border: 1px solid #eee !important;
   margin-top: 24px !important;
   margin-bottom: -10px !important;
   height: 22px !important;
@@ -315,7 +315,7 @@ a.quotelink.filtered,
 .navLinks * {
   font-size: 9pt !important;
   font-family: Helvetica Neue !important;
-  color: #30303a !important;
+  color: #aaa !important;
   transition: .5s ease all;
 }
 .navLinks *:hover {
@@ -367,7 +367,7 @@ input[type="number"] {
 }  
   
 #hidden-toggle, #hidden-toggle * {
-  font-size: 10pt !important;
+  font-size: 8pt !important;
   color: transparent !important;
 }
 
@@ -394,7 +394,7 @@ input[type="number"] {
 }
 
 .boardTitle {
-  color: #d2d2d2 !important;
+  color: #444 !important;
   font: normal 22pt Helvetica Lt STD Light !important;
   font-family: Helvetica Lt STD Light, Helvetica, sans-serif !important;
   text-shadow: none !important;
@@ -430,19 +430,19 @@ input[type="number"] {
   right: 80px !important;
   left: auto !important;
   z-index: 1;
-  border: 2px solid #30303a !important;
+  border: 2px solid #aaa !important;
   border-radius: 2px !important;
-  background: #131326 !important;
+  background: #fff !important;
   overflow: scroll !important;
   font-size: 7pt !important;
-  color: #30303a !important;
+  color: #aaa !important;
   z-index: 108342109890213 !important;
 }
 
 .globalMessage:before {
   content: "announcement" !important;
-  color: #131326 !important;
-  background: #30303a !important;
+  color: #fff !important;
+  background: #aaa !important;
   border-radius: 2px !important;
   padding: 2px !important;
   padding-top: 1px !important;
@@ -487,7 +487,7 @@ input[type="number"] {
 }
   
 #notifications {
-  font-size: 10pt !important;
+  font-size: 8pt !important;
 }
 
 .fa-refresh:before {
@@ -513,7 +513,7 @@ input[type="number"] {
 }
 
 #custom-board-list a {
-  color: #30303a !important;
+  color: #aaa !important;
   transition: .5s ease all !important;
 }
 
@@ -557,13 +557,13 @@ input[type="number"] {
   bottom: 16px !important;
   top: auto !important;
   color: #bbb !important;
-  background: #131326 !important;
+  background: #fff !important;
   box-shadow: none !important;
 }
 
 #updater.reply.dialog {
-  background: #131326 !important;
-  border-color: #d2d2d2 !important;
+  background: #fff !important;
+  border-color: #ddd !important;
   border-radius: 2px !important;
 }
 
@@ -578,11 +578,11 @@ input[type="number"] {
 
 #updater input {
   -moz-appearance: none !important;
-  border: 1px solid #30303a !important;
+  border: 1px solid #eee !important;
   color: #5c6066 !important;
-  background: #131326 !important;
+  background: #fff !important;
   border-radius: 2px !important;
-  font-size: 10pt !important;
+  font-size: 8pt !important;
   text-transform: lowercase !important;
   margin-left: 2px !important;
   text-align: right !important;
@@ -597,7 +597,7 @@ input[type="number"] {
 
 #updater input[type="button"] {
   text-align: center !important;
-  color: #30303a !important;
+  color: #aaa !important;
   border: none !important;
   padding: 0px !important;
   cursor: pointer !important;
@@ -606,7 +606,7 @@ input[type="number"] {
 }
 
 #count.new {
-  color: #d2d2d2 !important;
+  color: #444 !important;
   background: transparent !important;
 }
 
@@ -665,7 +665,7 @@ input[type="number"] {
   padding-right: 20px !important;
   padding-top: 8px !important;
   padding-bottom: 8px !important;
-  border: 1px solid #30303a !important;
+  border: 1px solid #eee !important;
   max-width: 95% !important;
 }
 
@@ -690,7 +690,7 @@ input[type="number"] {
   margin-left: 1% !important;
   z-index: 5 !important;
   box-shadow: none !important;
-  border: 1px solid #d2d2d2 !important;
+  border: 1px solid #ddd !important;
 }
 
 #qp .postContainer {
@@ -727,8 +727,8 @@ a.hide-announcement.fa.fa-minus-square-o:before {
 
 .hide-reply-button::before, .fa-minus-square-o:before {
   content: "\2296" !important;
-  font-size: 10pt !important;
-  color: #30303a !important;
+  font-size: 8pt !important;
+  color: #aaa !important;
   position: relative !important;
   font-family: Helvetica Neue, Helvetica, sans-serif !important;
   margin-right: 0px !important;
@@ -746,7 +746,7 @@ a.hide-announcement.fa.fa-minus-square-o:before {
 .hide-thread-button::before,
 .postContainer.opContainer .fa-minus-square-o:before {
  content: "Click to hide thread." !important;
- color: #30303a !important;
+ color: #aaa !important;
  font-size: 7pt !important;
  font-family: Helvetica Neue, Helvetica, sans-serif !important;
  position: absolute !important;
@@ -783,8 +783,8 @@ a.hide-announcement.fa.fa-minus-square-o:before {
   margin-right: -2px !important;
   margin-left: 4px !important;
   width: 100% !important;
-  color: #30303a !important;
-  font-size: 10pt !important;
+  color: #aaa !important;
+  font-size: 8pt !important;
   font-family: Helvetica Neue, Helvetica, sans-serif !important;
   background: transparent !important;
   border-radius: 0px !important;
@@ -794,9 +794,9 @@ a.hide-announcement.fa.fa-minus-square-o:before {
 .stub a, .show-post-button {
   margin-left: 0px !important;
   margin-right: 0px !important;
-  color: #30303a !important;
+  color: #aaa !important;
   font-family: Helvetica Neue, Helvetica, sans-serif !important;
-  font-size: 10pt !important;
+  font-size: 8pt !important;
 }
  
 .show-post-button {
@@ -827,8 +827,8 @@ a.hide-announcement.fa.fa-minus-square-o:before {
 }
 
 .stub .fa-bars:before {
-  font-size: 10pt !important;
-  color: #30303a !important;
+  font-size: 8pt !important;
+  color: #aaa !important;
   font-family: Helvetica Neue, Helvetica, sans-serif !important;
   margin-top: 0px !important;
   margin-right: 7px !important;
@@ -840,19 +840,19 @@ a.hide-announcement.fa.fa-minus-square-o:before {
   margin-top: -3px !important;
   margin-right: 11px !important;
   content: "\2297" !important;
-  font-size: 10pt !important;
+  font-size: 8pt !important;
   color: #bebebe !important;
   font-family: Helvetica Neue, Helvetica, sans-serif !important;
   transition: 0.5s color ease;
 }
   
 .stub a:first-of-type:hover::after {
-  color: #30303a !important;
+  color: #aaa !important;
   transition: 0.5s color ease;
 }
 
 .show-reply-button {
-  color: #30303a !important;
+  color: #aaa !important;
   font-family: Helvetica Neue, Helvetica, sans-serif !important;
   padding-left: 1px !important;
   margin-left: -2px !important;
@@ -880,7 +880,7 @@ p {
 
 .postInfo > .container {
   display: inline !important;
-  font-size: 10pt !important;
+  font-size: 8pt !important;
 }
 
 .opContainer .container {
@@ -916,7 +916,7 @@ div.closed {
 
 .fa-bars:before, .fa-angle-down:before {
   content: "\25BE" !important;
-  font-size: 10pt !important;
+  font-size: 8pt !important;
   color: #bebebe !important;
   margin-left: 5px !important;
   margin-right: 5px !important;
@@ -947,8 +947,8 @@ body.is_index .post.op .fa-bars:before {
 }
 
 .entry, .subMenu {
-  background: #131326 !important;
-  border-color: #30303a !important;
+  background: #ffffff !important;
+  border-color: #eee !important;
   color: #777 !important;
   font-family: lemon, sans-serif !important;
   font-size: 7pt !important;
@@ -969,8 +969,8 @@ body.is_index .post.op .fa-bars:before {
 }
 
 .dialog {
-  background: #131326 !important;
-  color: #d2d2d2 !important;
+  background: #fff !important;
+  color: #333 !important;
 }
 
 .thread {
@@ -980,12 +980,12 @@ body.is_index .post.op .fa-bars:before {
   padding-left: 0px !important;
   background-color: transparent !important;
   width: 86% !important;
-  border: 1px solid #30303a !important;
+  border: 1px solid #eee !important;
   display: table !important;
 }
 
 .postContainer {
-  border-top: 1px solid #30303a !important;
+  border-top: 1px solid #f2f2f2 !important;
   margin-top: 1px !important;
   width: 100% !important;
 }
@@ -1012,7 +1012,7 @@ body.is_index .post.op .fa-bars:before {
 }
 
 .summary {
-  color: #30303a !important;
+  color: #aaa !important;
   float: right !important;
   margin-top: -15px !important;
   margin-right: 4px !important;
@@ -1045,7 +1045,7 @@ body.is_index .post.op .fa-bars:before {
 }
   
 .post.op .file {
-  background: #131326 !important;
+  background: #fff !important;
   margin-right: 0px !important;
   margin-top: -6px !important;
   padding-bottom: 2px !important;
@@ -1091,7 +1091,7 @@ div .postInfo {
   margin-top: 2px !important;
   padding-top: 2px !important;
   padding-bottom: 0px !important;
-  font-size:10pt !important;
+  font-size:8pt !important;
   background: transparent !important;
   border-bottom: none !important;
   border-top: 1px #909090 !important;
@@ -1206,7 +1206,7 @@ div .postInfo {
 /* settings menu */
   
 .yotsuba-b:root .suboption-list > div:last-of-type {
-  background-color: #131326 !important;
+  background-color: #fff !important;
 }
 
 #fourchanx-settings > nav a {
@@ -1220,7 +1220,7 @@ div .postInfo {
 
 #options.reply.dialog {
   border: none !important;
-  background: #131326 !important;
+  background: #fff !important;
   border-radius: 2px !important;
   box-shadow: 0px 0px 10px rgba(0,0,0,0.3) !important;
   height: 420px !important;
@@ -1268,7 +1268,7 @@ select {
   width: 150px !important;
   -moz-appearance: none !important;
   background: transparent !important;
-  color: #30303a!important;
+  color: #aaa!important;
   border: none !important;
   border-radius: 2px !important;
   margin: 4px !important;
@@ -1278,7 +1278,7 @@ select {
 button {
   -moz-appearance: none !important;
   background: transparent !important;
-  color: #30303a!important;
+  color: #aaa!important;
   border: none !important;
   border-radius: 2px !important;
   opacity: 0.65 !important;
@@ -1293,7 +1293,7 @@ button {
 button:hover, select:hover {
   background: #5c6066 !important;
   opacity: 1 !important;
-  color: #131326 !important;
+  color: #fff !important;
 }
 
 #content textarea {
@@ -1305,11 +1305,8 @@ button:hover, select:hover {
 
 
 .field {
-  border: 1px solid #30303a !important;
-  background-color: #131326 !important;
-  color: #d2d2d2 !important;
+  border: 1px solid #eee !important;
 }
-
 
 .textarea.field {
   width: 390px !important;
@@ -1337,7 +1334,7 @@ td {
   color: transparent !important;
   background: transparent !important;
   border: none !important;
-  font-size: 10pt !important;
+  font-size: 8pt !important;
 }
 
 .pages {
@@ -1346,16 +1343,16 @@ td {
 
 .pages a {
   color: #7c818a !important;
-  font-size: 10pt !important;
+  font-size: 8pt !important;
 }
 
 .pages strong {
   color: #121821 !important;
-  font-size: 10pt !important;
+  font-size: 8pt !important;
 }
 
 .pagelist .cataloglink a {
-  color: #30303a !important;
+  color: #aaa !important;
   font-size: 7pt !important;
   padding: 2px !important;
   padding-bottom: 3px !important;
@@ -1374,15 +1371,15 @@ td {
 }
 
 .pagelist .cataloglink a:hover {
-  color: #131326 !important;
-  background: #30303a !important;
+  color: #fff !important;
+  background: #aaa !important;
 }
 
 .pagelist .prev, .pagelist .next {
   -moz-appearance: none !important;
   margin-top: 1px !important;
   background: transparent !important;
-  color: #30303a!important;
+  color: #aaa!important;
   border: none !important;
   border-radius: 2px !important;
   opacity: 0.65 !important;
@@ -1390,7 +1387,7 @@ td {
   padding-top: 0px !important;
   text-transform: lowercase !important;
   cursor: pointer !important;
-  font-size: 10pt !important;
+  font-size: 8pt !important;
   font-family: SF UI Display !important;
 }
 
@@ -1411,7 +1408,7 @@ td {
   width: 240px !important;
   max-width: 220px !important;
   max-height: 500px !important;
-  background-color: #131326 !important;
+  background-color: #fff !important;
   margin: 5px !important;
   box-shadow: inset 0px 1px 2px -1px rgba(0,0,0,0.2) !important;
   border-radius: 2px !important;
@@ -1424,10 +1421,6 @@ td {
 -----
 */
 
-#captcha color autism
-a, a:visited {
-  color: #d04767 !important;
-}
 
 #qr {
   display: block !important;
@@ -1452,14 +1445,13 @@ a, a:visited {
   padding-bottom: 0px !important;
   margin-right: 10px !important;
   z-index: 5;
-  font-family: lemon !important;
   font-size: 7pt !important;
   color: #bbb;
 }
 
 #qr:hover::before, #qr select #qr:hover::before {
-  color: #131326;
-  background: #30303a !important;
+  color: #fff;
+  background: #aaa !important;
   opacity: 1;
 }
 
@@ -1483,7 +1475,7 @@ a, a:visited {
   width: 400px !important;
   height: 252px !important;
   padding: 4px !important;
-  background: #30303a !important;
+  background: #aaa !important;
   border-radius: 3px !important;
   border-bottom-right-radius: 0px !important;
   overflow: visible !important;
@@ -1515,20 +1507,20 @@ input[title="Subject"].field {
   height: 26px !important;
   font-family: SF UI Display !important;
   font-size: 7pt !important;
-  background: #131326 !important;
-  color: #d2d2d2 !important;
-  border-bottom: 1px solid #30303a !important;
+  background: #fff !important;
+  color: #ccc !important;
+  border-bottom: 1px solid #e6e8eb !important;
 }
 
 /* Dump menu */
 #qr #replies {
-  background: #131326 !important;
+  background: #fff !important;
   border-bottom: 1px solid #e6e8eb !important;
 }
 
 #qr .thumbnail {
   text-shadow: 0px 0px 2px rgba(0,0,0,1.0) !important;
-  background-color: #131326 !important;
+  background-color: #fff !important;
 }
 
 #qr .thumbnail:before {
@@ -1561,11 +1553,11 @@ input[title="Subject"].field {
   -moz-appearance: none !important;
   height: 200px !important;
   margin-bottom: 0px !important;
-  font-size: 10pt !important;
+  font-size: 8pt !important;
   font-family: SF UI Display, Lucida Sans Unicode, sans-serif !important;
   line-height: 14px !important;
-  background: #131326 !important;
-  color: #d2d2d2 !important;
+  background: #fff !important;
+  color: #33414d !important;
   border: none !important;
 }
 
@@ -1575,8 +1567,8 @@ input[title="Subject"].field {
 }
 
 #file-n-submit {
-  background: #131326 !important;
-  border-top: 1px solid #30303a !Important;
+  background: #fff !important;
+  border-top: 1px solid #eee !Important;
   height: 28px !important;
   margin-top: 0px !important;
 }
@@ -1587,23 +1579,23 @@ input[title="Subject"].field {
 
 #qr-file-button, #qr-filename-container {
   -moz-appearance: none !important;
-  background: #131326 !important;
+  background: #fff !important;
   height: 26px !important;
   border: none !important;
-  border-right: 1px solid #30303a !important;
+  border-right: 1px solid #eee !important;
   font-family: SF UI Display, Lucida Sans Unicode, sans-serif !important;
   font-size: 7pt !important;
-  color: #30303a !important;
+  color: #aaa !important;
 }
 
 #file-n-submit input[type="submit"] {
   -moz-appearance: none !important;
-  background: #131326 !important;
+  background: #fff !important;
   height: 26px !important;
   border: none !important;
   font-family: SF UI Display, Lucida Sans Unicode, sans-serif !important;
   font-size: 7pt !important;
-  color: #30303a !important;
+  color: #aaa !important;
 }
   
 .fa-times-circle::before {
@@ -1614,7 +1606,7 @@ input[title="Subject"].field {
 #qr-filename, 
 #qr-filesize, 
 #qr-filerm {
-  color: #30303a !important;
+  color: #aaa !important;
   text-align: center !important;
 }
 
@@ -1661,16 +1653,16 @@ a#qr-filerm {
   }
   
   .postblock {
-    background: #30303a !important;
-    border: 1px solid #30303a !important;
+    background: #eee !important;
+    border: 1px solid #eee !important;
   }
   
   table.flashListing tr:nth-of-type(2n+1) {
-    background: #131326 !important;
+    background: #fff !important;
   }
   
   table.flashListing tr {
-    background: #131326 !important;
+    background: #fff !important;
   }
 }
 
@@ -1700,104 +1692,3 @@ a#qr-filerm {
   display: none !important;
 }
 }
-
-@-moz-document url("https://www.4chan.org/banned") {
-/* B&
-------
-*/
-
-/* baby got put in the corner :c */
-
-.top-box {
-    background: #131326 !important;
-}
-
-.box-outer {
-    border: 2px solid #30303a !important;
-}
-
-.boxbar {
-    background: #131326 !important;
-    color: #bf7c83 !important;
-}
-
-.boxcontent {
-    color: #d2d2d2 !important;
-    font-family: SF UI Display !important;
-    font-size: 10pt !important;
-    padding-left: 20px !important;
-    padding-right: 20px !important;
-}
-
-#ft li.current, #ft li.fill {
-    background: #131326 !important;
-    color: #d04767 !important;
-    border-top: 2px solid #d04767 !important;
-}
-
-#ft ul {
-    border-top: 2px solid #d04767 !important;
-    color: #d2d2d2 !important;
-}
-
-#ft li.first {
-    border-left: 2px solid #d04767 !important;
-}
-
-#ft li {
-    background: #131326 !important;
-    border: 1px solid #d04767;
-    border-right-width: 2px !important;
-    border-bottom-width: 2px !important;
-}
-
-#ft li a {
-    color: #bf7c83 !important;
-    font-size: 9pt !important;
-}
-
-body {
-    color: #d2d2d2 !important;
-    font-family: SF UI Display !important;
-    font-size: 8pt !important;
-    background: #131326 !important;
-    background-color: #131326 !important;
-}
-
-#hd {
-    /*display: none !important;*/
-    padding-top: 50px !important;
-}
-
-html {
-    background: #131326 !important;
-}
-
-button {
-    color: #d2d2d2 !important;
-    font-family: lemon !important;
-    font-size: 8pt !important;
-}
-
-fieldset, img {
-    display: none !important;
-}
-
-a {
-    color: #bf7c83 !important;
-    font-family: SF UI Display !important;
-    font-size: 10pt !important;
-}
-
-span.name {
-    color: #a27b9d !important;
-    font-weight: 700 !important;
-}
-
-h2 {
-	color: #28915d !important;
-    font-size: 12pt !important;
-    font-weight: 700;
-    background-color: #131326 !important;
-}
-} 

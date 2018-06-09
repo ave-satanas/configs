@@ -1,7 +1,7 @@
 
 ############################################################################
 ### begin of mpd configuration file
-### created by `mpd-configure' (version 0.9.7) on 2018-06-05T18:24:40-07:00.
+### created by `mpd-configure' (version 0.9.7) on 2018-06-05T18:23:39-07:00.
 ### see: https://github.com/ronalde/mpd-configure/
 ############################################################################
 ## start processing `01_output-audio-alsa.conf'
@@ -13,18 +13,18 @@ audio_output {
 	auto_format      "no"
 	auto_channels    "no"
 	replay_gain_handler "none"
-mixer_type                 "hardware"
+	mixer_type                 "none"
 }
 replaygain                 "off"
 ## done processing
 
 ## start processing `02_paths.conf'
-music_directory                   "/home/ave-satanas/mu/music"
-log_file                          "/home/ave-satanas/mu/conf/mpd.log"
-playlist_directory                "/home/ave-satanas/mu/playlists"
-pid_file                          "/home/ave-satanas/mu/conf/mpd.pid"
-state_file                        "/home/ave-satanas/mu/conf/mpdstate"
-sticker_file                      "/home/ave-satanas/mu/conf/mpdsticker"
+music_directory                   "/home/ave-satanas/Music"
+log_file                          "/etc/mpd.log"
+playlist_directory                "/etc/playlists"
+pid_file                          "/etc/pid"
+state_file                        "/etc/state"
+sticker_file                      "/etc/sticker"
 save_absolute_paths_in_playlists  "no"
 ## done processing
 
@@ -45,9 +45,7 @@ max_output_buffer_size "8192"
 ## done processing
 
 ## start processing `05_network.conf'
-bind_to_address "127.0.0.1"
-port "1337"
-
+bind_to_address "0.0.0.0"
 ## done processing
 
 ## start processing `06_zeroconf.conf'
@@ -56,12 +54,4 @@ zeroconf_enabled    "True"
 
 ############################################################################
 ### end of mpd configuration file
-###########################################################################
-#
-
-audio_output {
-    type                    "fifo"
-    name                    "my_fifo"
-    path                    "/tmp/mpd.fifo"
-    format                  "44100:16:2"
-}
+############################################################################

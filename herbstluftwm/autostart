@@ -56,7 +56,7 @@ hc keybind XF86AudioLowerVolume spawn amixer -c 1 sset 'PCM' 3%- unmute
 #mpc prev
 #hc keybind $Mod-l mpc next
 # screenshot
-hc keybind Print spawn scrot 'scrot_%Y-%m-%d-%S_$wx$h.png'
+hc keybind Print spawn scrot 'ave.png'
 
 # padding
 hc pad 0 37 0 0 0
@@ -185,7 +185,7 @@ hc set frame_bg_transparent 1
 hc set frame_transparent_width 0
 hc set frame_gap 0
 
-hc attr theme.active.color '#96b6d8'
+hc attr theme.active.color '#d04767'
 hc attr theme.normal.color '#131326'
 hc attr theme.urgent.color orange
 hc attr theme.inner_width 0
