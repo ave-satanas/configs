@@ -26,6 +26,10 @@ ZSH_HIGHLIGHT_STYLES[single-hyphen-opton]='fg=red'
 export INFINALITY_FT_BRIGHTNESS="-10"
 export INFINALITY_FT_FILTER_PARAMS="16 20 28 20 16"
 
+#MPC settings
+export MPD_PORT="1337"
+export MPD_HOST="127.0.0.1"
+
 #fix home, del, et. al. keys
 bindkey "^[[1~" beginning-of-line
 bindkey "^[[4~" end-of-line
