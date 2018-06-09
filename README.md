@@ -5,3 +5,6 @@ desktop tiling with herbstluftwm courtesy of https://github.com/ward6slick
 
 colors, ncmpcpp, terminal, 4chan css  from https://github.com/phallus
 
+userChrome.css from code.chloechantelle.com
+
+
