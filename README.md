@@ -1,8 +1,4 @@
 # configs
-![image](https://my.mixtape.moe/tssglf.png)
+![image](https://my.mixtape.moe/jonwmf.png)
 desktop tiling with herbstluftwm courtesy of https://github.com/ward6slick
-
-![image](https://my.mixtape.moe/tmpzaf.png)
-4chan rice w/ banned page
-
-
+colors, ncmpcpp, terminal, 4chan css  from https://github.com/phallus
