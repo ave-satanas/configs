@@ -524,7 +524,7 @@ opacity: 0.5 !important;
 
 /* menu button */
 #PanelUI-button {
-    background: url(https://my.mixtape.moe/wkjdxx.png) important;
+    background: url(https://my.mixtape.moe/wkjdxx.png) !important;
     background-color: var(--url-bg) !important;
     background-repeat: no-repeat !important;
     background-position: center !important;
