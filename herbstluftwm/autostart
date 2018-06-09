@@ -48,17 +48,18 @@ hc keybind $Mod-d spawn dmenu_run -fn lemon -p $ -nb '#0f0f0f' -sb '#4a4a4a'
 hc keybind $Mod-w spawn firefox
 hc keybind $Mod-r spawn urxvt -e ranger
 hc keybind $Mod-i spawn urxvt -e ncmpcpp -p 1337 -h 127.0.01
+
+#media controls
 hc keybind $Mod-j spawn amixer -c 1 sset 'PCM' 3%- unmute
 hc keybind $Mod-k spawn amixer -c 1 sset 'PCM' 3%+ unmute
 hc keybind XF86AudioRaiseVolume spawn amixer -c 1 sset 'PCM' 3%+ unmute
 hc keybind XF86AudioLowerVolume spawn amixer -c 1 sset 'PCM' 3%- unmute
+hc keybind $Mod-h mpc prev
+hc keybind $Mod-l mpc next
 
-#mpc prev
-#hc keybind $Mod-l mpc next
-# screenshot
 hc keybind Print spawn scrot 'ave.png'
 
-# padding
+#padding
 hc pad 0 37 0 0 0
 #hc pad 0 27 0 0 0
 hc set snap_gap 0
