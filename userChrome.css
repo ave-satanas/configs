@@ -10,8 +10,8 @@ you can try to read my changes but I literally didn't even care what line I was 
 
 browser {
   margin-right: -17px !important;
-  overflow-y: hidden !important;
-  overflow-x: scroll !important;
+  overflow-y: scroll !important;
+  overflow-x: hidden !important;
 }
 
 /* zooming out and hiding the button is easier than
