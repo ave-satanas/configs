@@ -7,10 +7,18 @@ you can try to read my changes but I literally didn't even care what line I was 
 */
 
 /* scrollbars REEEEEEEEE*/
+
 browser {
   margin-right: -17px !important;
-  overflow-y: scroll;
-  overflow-x: hidden;
+  overflow-y: hidden !important;
+  overflow-x: scroll !important;
+}
+
+/* zooming out and hiding the button is easier than
+   making a userstyle for github
+   yeah I'm that lazy */
+#urlbar-zoom-button {
+  display: none !important;
 }
 
 /* custom colors */             /*var(--tab-bg)*/
